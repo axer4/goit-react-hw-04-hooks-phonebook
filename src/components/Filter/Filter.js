@@ -13,11 +13,9 @@ export default function Filter({ filter, handleFilterChange }) {
              value={filter}
              className = {styles.input}
          >
-             
             </input>
             </label>
 }
- 
 Filter.propTypes = {
     filter: PropTypes.string,
     handleFilterChange:PropTypes.func,
